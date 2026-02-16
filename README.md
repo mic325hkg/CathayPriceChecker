@@ -18,3 +18,6 @@ python cathay_gui.py
 
 ## Build EXE
 pyinstaller --clean --noconfirm --onefile --windowed --name CathayPriceChecker --collect-data airportsdata --add-data "cathay_earnings.yaml;." cathay_gui.py
+
+## Run Command Line
+python cathay_price_checker.py --from HKG --to NRT --date 2026-02-18 --currency HKD --adults 1
