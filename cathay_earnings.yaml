@@ -1,0 +1,19 @@
+version: "2025-08-20"   # Cathay changes effective for departures on/after 20 Aug 2025 [2](https://www.cathaypacific.com/cx/en_US/membership/news-and-updates/Changes-to-your-Status-Points-and-Asia-Miles-earnings-on-flights.html)
+rules:
+  # Example rule row (you will add many):
+  - zone: "ULTRA_SHORT"
+    short_type: null
+    cabin: "ECONOMY"
+    fare_type: "LIGHT"
+    booking_classes: ["Y","B","H","K"]
+    status_points: 10
+    asia_miles: 1000
+
+  # SHORT Type 2 example:
+  - zone: "SHORT"
+    short_type: "TYPE2"
+    cabin: "BUSINESS"
+    fare_type: "FLEX"
+    booking_classes: ["J","C","D"]
+    status_points: 0
+    asia_miles: 0
