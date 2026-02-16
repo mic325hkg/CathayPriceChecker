@@ -2,3 +2,4 @@ amadeus
 airportsdata
 python-dateutil
 pyyaml
+rich
