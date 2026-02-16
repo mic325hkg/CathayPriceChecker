@@ -13,4 +13,11 @@ Windows desktop app to:
 ## Setup
 ```bash
 pip install -r requirements.txt
+
 python cathay_gui.py
+
+## Build EXE
+pyinstaller --clean --noconfirm --onefile --windowed --name CathayPriceChecker `
+>>   --collect-data airportsdata `
+>>   --add-data "cathay_earnings.yaml;." `
+>>   cathay_gui.py
